@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>My family</title>
+  <meta charset="utf-8">
+<style>
+  div.kids,div.parents{
+    border:5px solid red;
+    padding:20px;
+    color:blue;
+  }
+
+  #outer-line{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  h1.main{
+    font-size:80px;
+    border:5px solid red;
+    padding:20px;
+    margin:0px;
+  }
+  </style>
+</head>
+<body>
+  <div id="outer-line">
+  <h1 class="main" align="center">My Family</h1>
+  <div id="grid">
+    <div class="parents">
+      <h1>Lee JongJin</h1>
+      <h2>Yang JiHye</h2>
+      </div>
+  <div class="kids">
+    <ol>
+    <li>Lee JinHo</li>
+    <li>Lee JiHo</li>
+    <li>Lee JunHo</li>
+    </ol>
+  </div>
+
+  </div>
+  </div>
+</body>
+</html>
